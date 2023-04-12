@@ -1,10 +1,10 @@
 # TweetCloneBackend
 
 ## Structure
-"models" stores different schemas: User, Tweet, Chat, Message
-"routes" stores different routers and their API endpoints
-"controller" stores different functions that control endpoints' behavior
-"tests" stores unit tests to different API endpoints
+"models" stores different schemas: User, Tweet, Chat, Message//
+"routes" stores different routers and their API endpoints//
+"controller" stores different functions that control endpoints' behavior//
+"tests" stores unit tests to different API endpoints//
 
 ## To run the project
 - The projects runs on localhost:8000.
