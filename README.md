@@ -16,41 +16,41 @@
   >> signUp \
     method: POST \
     uri: http://localhost:8000/api/auths/signup/ \
-    body: {username, email, password} \
+    body: {username, email, password}
   
   >> signIn \
     method: POST \
     uri: http://localhost:8000/api/auths/signin/ \
-    body: {email, password} \
+    body: {email, password}
     
   >> cancelAccount \
     method: DELETE \
-    uri: http://localhost:8000/api/auths/ \
+    uri: http://localhost:8000/api/auths/
 
 > User
   >> getUser \
     method: GET \
-    uri: http://localhost:8000/api/users/find/:id/ \
+    uri: http://localhost:8000/api/users/find/:id/
   
   >> updateUser \
     method: PUT \
     uri: http://localhost:8000/api/users/:id/ \
-    body: {username, email} \
+    body: {username, email}
 
 > Tweets
   >> getTweet \
     method: GET \
-    uri: http://localhost:8000/api/tweets/:id/ \
+    uri: http://localhost:8000/api/tweets/:id/
     
   >> createTweet \
     method: POST \
     uri: http://localhost:8000/api/tweets/ \
-    body: {text} \
+    body: {text}
     
   >> updateTweet \
     method: PUT \
     uri: http://localhost:8000/api/tweets/:id/ \
-    body: {text} \
+    body: {text}
     
   >> deleteTweet \
     method: DELETE \
@@ -58,25 +58,25 @@
     
   >> retweet \
     method: POST \
-    uri: http://localhost:8000/api/tweets/:id/retweet/ \
+    uri: http://localhost:8000/api/tweets/:id/retweet/
     
   >> likeOrUnlike \
     method: PUT \
-    uri: http://localhost:8000/api/tweets/:id/like/ \
+    uri: http://localhost:8000/api/tweets/:id/like/
     
 > Chats
   >> createChat \
     method: POST \
-    uri: http://localhost:8000/api/chats/:id/ \
+    uri: http://localhost:8000/api/chats/:id/
     
   >> deleteChat \
     method: DELETE \
-    uri: http://localhost:8000/api/chats/:id/ \
+    uri: http://localhost:8000/api/chats/:id/
     
   >> getMessage \
     method: GET \
-    uri: http://localhost:8000/api/chats/:id/message/ \
+    uri: http://localhost:8000/api/chats/:id/message/
     
   >> sendMessage \
     method: POST \
-    uri: http://localhost:8000/api/chats/:id/message/ \
+    uri: http://localhost:8000/api/chats/:id/message/
