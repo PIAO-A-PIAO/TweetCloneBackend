@@ -18,9 +18,9 @@
     - uri: http://localhost:8000/api/auths/signup/\
     - body: {username, email, password}\
   >> signIn
-    - method: POST\
-    - uri: http://localhost:8000/api/auths/signin/\
-    - body: {email, password}\
+    method: POST\
+    uri: http://localhost:8000/api/auths/signin/\
+    body: {email, password}\
   >> cancelAccount
     - method: DELETE\
     - uri: http://localhost:8000/api/auths/\
