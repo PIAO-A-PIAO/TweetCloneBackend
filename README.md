@@ -7,11 +7,13 @@
 - "tests" stores unit tests to different API endpoints//
 
 ## To run the project
-- The projects runs on localhost:8000.
+- The project runs on localhost:8000.
 - To link to the database, please use the following uri: [mongodb+srv://piaoxuanyi2001:WB15xzahGCEZXf8a@twitterclonecluster.hi1vdpl.mongodb.net/?retryWrites=true&w=majority]
+- To run the project/test the endpoints, please enter `/server` and run `npm start`.
 - To run the unit tests, please run `npm test -- <filename>`. Please don't run all test files simultaneously as it will probably cause an exceed in time.
 
 ## HTTP Requests
+You can test these on Postman or any other API platform
 > Auth
   >> signUp \
     method: POST \
